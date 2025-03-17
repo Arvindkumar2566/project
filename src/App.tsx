@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import BoatGrid from './components/BoatGrid';
 import AuthForm from './components/AuthForm';
 import Footer from './components/Footer';
+import ImageSec from './components/ImageSec';
 
 function App() {
   const [session, setSession] = useState(null);
@@ -34,6 +35,7 @@ function App() {
           <>
             <Navbar />
             <Hero />
+            <ImageSec/>
             <BoatGrid />
             <Footer />
           </>

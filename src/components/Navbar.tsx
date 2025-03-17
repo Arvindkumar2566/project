@@ -23,13 +23,13 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Boat className={`h-8 w-8 ${isDarkMode ? 'text-blue-400' : 'text-blue-600'}`} />
-            <span className="ml-2 text-xl font-bold">LuxuryBoats</span>
+            <span className="ml-2 text-xl font-bold">SAIRAM</span>
           </div>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#" className="hover:text-blue-600">Home</a>
-            <a href="#boats" className="hover:text-blue-600">Boats</a>
+            <a href="#boats" className="hover:text-blue-600">Vehicles</a>
             <a href="#pricing" className="hover:text-blue-600">Pricing</a>
             <a href="#contact" className="hover:text-blue-600">Contact</a>
             <button

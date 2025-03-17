@@ -31,15 +31,27 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-blue-400" />
-                <span className="text-gray-400">+91 9491143755</span>
+                {/* Phone number is now a clickable link to initiate a call */}
+                <a href="tel:+919491143755" className="text-gray-400 hover:text-white">
+                  +91 9491143755
+                </a>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-blue-400" />
-                <span className="text-gray-400">info@adtrucks.com</span>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" className="text-gray-400 hover:text-white">
+                  srledvans@gmail.com
+                </a>
               </li>
               <li className="flex items-center">
                 <MapPin className="h-5 w-5 mr-2 text-blue-400" />
-                <span className="text-gray-400">123 Ad Street, NY 10001</span>
+                <a 
+                  href="https://www.google.com/maps?q=Secunderabad,Hyderabad"
+                  className="text-gray-400 hover:text-white"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Secunderabad, Hyderabad
+                </a>
               </li>
             </ul>
           </div>
