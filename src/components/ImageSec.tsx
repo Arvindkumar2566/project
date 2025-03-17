@@ -8,7 +8,7 @@ const ImageSec: React.FC = () => {
     <div className={`flex justify-center mt-8 ${isDarkMode ? 'dark' : ''}`}>
       <div className="relative group">
         <img
-          src="/src/assets/image2 .jpg" // Ensure the image is in public/assets/
+          src="/src/assets/image2.jpg" // Ensure the image is in public/assets/
           alt="LED Vehicle"
           className={`max-w-full h-auto rounded-lg shadow-2xl transition-all duration-700 ease-in-out ${
             isDarkMode ? 'filter brightness-50' : 'filter brightness-100'
